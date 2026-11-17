@@ -1,4 +1,3 @@
-from datetime import datetime
 import matplotlib.pyplot as plt
 from math import exp, sqrt 
 from scipy.integrate import quad
