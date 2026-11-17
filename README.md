@@ -8,6 +8,6 @@ L = 1.17 L_sun, T_surf = 4.98e+05 K.
 Making this a useful approximation of the stellar structure. The solved stellar values are given by:
 <img width="3000" height="1600" alt="solar-structure" src="https://github.com/user-attachments/assets/1876cfc1-889b-473d-ab3f-440c3094ac17" />
 The resulting mappings for the temperature and energy released via fusion is:
-<img width="1280" height="960" alt="temperturegraph" src="https://github.com/user-attachments/assets/ff00ab7e-eb5a-4212-afbd-131f5056e60e" />
+<img width="1280" height="960" alt="temperaturegraph" src="https://github.com/user-attachments/assets/37b421f4-c502-477e-b4a7-58ee6834b9a6" />
 <img width="1280" height="960" alt="fusiongraph" src="https://github.com/user-attachments/assets/3bea8e58-c1fc-43bb-b17d-8ea436e595ef" />
 
