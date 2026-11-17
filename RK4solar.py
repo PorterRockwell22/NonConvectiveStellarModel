@@ -158,13 +158,13 @@ if __name__ == "__main__":
     fig.colorbar(pc, label="Temperature (K)")
     fracs = np.array([0.25, 0.5, 0.7])
 
-    ax.set_title("Temperture Mapping of The Sun")
+    ax.set_title("Temperature Mapping of The Sun")
     ax.set_rticks(fracs * R_0)
     ax.set_yticklabels([f"{f:.2f} R₀" for f in fracs], color="cyan")
     ax.set_rlabel_position(45)
     ax.set_xticklabels([])
     ax.grid(True, axis="y", alpha=0.4, color="white")
-    plt.savefig(os.path.join(DATA_DIR, 'temperturegraph.png'), dpi=200)
+    plt.savefig(os.path.join(DATA_DIR, 'temperaturegraph.png'), dpi=200)
     plt.show()
     
     #energy released mapping
