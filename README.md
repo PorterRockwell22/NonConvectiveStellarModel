@@ -6,7 +6,8 @@ P_c = 1.748e+16 Pa, T_c = 1.454e+07 K, rho_c = 8.87e+04 kg/m^3
 R = 0.89 R_sun, M = 1.000 M_sun
 L = 1.17 L_sun, T_surf = 4.98e+05 K.
 Making this a useful approximation of the stellar structure. The solved stellar values are given by:
-<img width="3000" height="1600" alt="solar-structure" src="https://github.com/user-attachments/assets/f97de901-7e56-421c-939e-72e7732b48f1" />
+<img width="3000" height="1600" alt="solar-structure" src="https://github.com/user-attachments/assets/1876cfc1-889b-473d-ab3f-440c3094ac17" />
 The resulting mappings for the temperature and energy released via fusion is:
-<img width="1280" height="960" alt="fusiongraph" src="https://github.com/user-attachments/assets/61b70fc0-3d11-4683-9418-bdc80a9ccedb" />
-<img width="1280" height="960" alt="temperturegraph" src="https://github.com/user-attachments/assets/679b4aae-4e4a-4900-8875-54599c96a6e4" />
+<img width="1280" height="960" alt="temperturegraph" src="https://github.com/user-attachments/assets/ff00ab7e-eb5a-4212-afbd-131f5056e60e" />
+<img width="1280" height="960" alt="fusiongraph" src="https://github.com/user-attachments/assets/3bea8e58-c1fc-43bb-b17d-8ea436e595ef" />
+
