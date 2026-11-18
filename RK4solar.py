@@ -24,6 +24,7 @@ R_max  = 2.0
 
 DATA_DIR = os.path.dirname(os.path.abspath(__file__))
 
+#[2] Sharma, Arushi, Ishwar Kant, and O. S. K. S. Sastri. “WKB Analysis of the Astrophysical S-Factor for the pp-Fusion Reaction.” arXiv, 3 Aug. 2026, https://doi.org/10.48550/arXiv.2607.00487
 def reactivity(kT, eta=3.52):
     keV, mu = 1.602176634e-16, 1.67262192e-27 / 2
     S = lambda E: 4e-22 * 1e-28 * (1 + 0.0112 * E)
@@ -62,7 +63,8 @@ def opacity(p, T, gbf_t=GBF_T, gff=1.0):
 
 def density(P, T):
     return mu_w * m_u * max(P - a*T**4/3, 0.0) / (k_B * T)
-
+    
+#[1] Priest, E R. "Solar magnetohydrodynamics." , Jan. 1982. 
 def f(r, y):
     M, P, T, L = y
     p = density(P, T)
